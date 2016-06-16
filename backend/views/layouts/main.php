@@ -22,7 +22,9 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <link  href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <?=Html::cssFile('@web/css/font.css')?>
+    <?=Html::cssFile('@web/css/font_all.css')?>
     <?=Html::cssFile('@web/css/bootstrap_calendar.css')?>
     <?=Html::cssFile('@web/css/app.v2.css')?>
     <?=Html::jsFile('@web/js/app.v2.js')?>
